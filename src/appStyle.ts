@@ -5,7 +5,7 @@ interface AppContainerTypes {
 }
 
 export const AppContainer = styled.div`
-    min-height: 110vh;
+    min-height: 100vh;
     min-width: 100%;
     max-width: 1300px;
     position: ${({menuMobileOpen}: AppContainerTypes) => menuMobileOpen ? "fixed" : "static"};
