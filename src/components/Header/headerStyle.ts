@@ -12,6 +12,12 @@ export const HeaderContainer = styled.header`
     top: 0;
     z-index: 99;
 
+    @media (min-width: 1300px) {
+        max-width: 1300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     #logo div {
         font-family: 'Silkscreen', cursive;
         font-size: 20px;

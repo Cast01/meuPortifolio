@@ -6,10 +6,7 @@ export const ApresentationContainer = styled.main`
     position: relative;
     padding-top: 60px;
     display: flex;
-
-    @media (max-width: 1000px) {
-        justify-content: center;
-    }
+    justify-content: center;
 
     #spaceBackground {
         z-index: -1;
@@ -19,6 +16,13 @@ export const ApresentationContainer = styled.main`
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+
+    #MaxWidth {
+        width: 100%;
+        max-width: 1300px;
+        height: 100%;
+        display: flex;
     }
 
     #DescriptionBox {
