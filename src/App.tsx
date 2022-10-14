@@ -11,7 +11,7 @@ function App() {
   const {menuMobileOpen} = useContext(MenuMobileContext);
 
   return (
-    <AppContainer menuMobileOpen={menuMobileOpen}>
+    <AppContainer>
       <Header />
       <Apresentation />
       <Tecnologies />
