@@ -8,19 +8,19 @@ export interface MenuMobileProps {
 export function MenuMobile({menuMobileOpen}: MenuMobileProps) {
     return (
         <MenuMobileContainer menuMobileOpen={menuMobileOpen}>
-            <a href="#home" className="navigationInside">
+            <a href="#spaceBackground" className="navigationInside">
                 HOME
             </a>
-            <a href="#tecnologias" className="navigationInside">
+            <a href="#tecnologies" className="navigationInside">
                 TECNOLOGIAS
             </a>
-            <a href="#projetos" className="navigationInside">
+            <a href="#projects" className="navigationInside">
                 PROJETOS
             </a>
-            <a href="#">
+            <a href="https://whatsa.me/5515996487302" target={"_blank"}>
                 <LinkedinLogo size={30} weight={"bold"} color="#5ff" />
             </a>
-            <a href="#linkedIn" id="whatsAppMobile">Let's Connect</a>
+            <a href="#linkedIn" id="whatsAppMobile">Contato</a>
         </MenuMobileContainer>
     );
 }

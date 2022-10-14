@@ -1,21 +1,30 @@
 import styled from "styled-components";
 
+interface HeaderContainerTypes {
+    scrolled: number;
+}
+
 export const HeaderContainer = styled.header`
-    background: rgba(91, 91, 91, .5);
+    background: ${({scrolled}: HeaderContainerTypes) => scrolled > 0 ? "rgba(91, 91, 91, .6)" : "rgba(91, 91, 91, .5)"};
     width: 100%;
     height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 15px;
     position: fixed;
     top: 0;
     z-index: 99;
 
     @media (min-width: 1300px) {
+        display: flex;
+        justify-content: center;
+    }
+
+    #center {
+        width: 100%;
         max-width: 1300px;
-        left: 50%;
-        transform: translateX(-50%);
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     #logo div {

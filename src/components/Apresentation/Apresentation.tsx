@@ -17,7 +17,7 @@ export function Apresentation() {
                             <span id="FlashingStraightBar">|</span>
                         </h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe tempore odio maiores illo ullam quis harum incidunt qui? Repellendus aliquid earum soluta consectetur quo voluptatem maxime praesentium eaque laudantium impedit.</p>
-                        <a href="#WhatsApp">Let's Connect</a>
+                        <a href="https://whatsa.me/5515996487302" target={"_blank"}>Contato</a>
                     </div>
                 </div>
                 <div id="AstronautBox">

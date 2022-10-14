@@ -5,6 +5,7 @@ import { MenuMobileContext } from "./contexts/MenuMobileContext";
 
 import { Apresentation } from "./components/Apresentation/Apresentation";
 import { Tecnologies } from "./components/Tecnologies/Tecnologies";
+import { Projects } from "./components/Projects/Projects";
 
 function App() {
   const {menuMobileOpen} = useContext(MenuMobileContext);
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Apresentation />
       <Tecnologies />
+      <Projects />
     </AppContainer>
   )
 }

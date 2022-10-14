@@ -34,6 +34,11 @@ export const ApresentationContainer = styled.main`
         padding: 0 15px;
 
         @media (max-width: 1000px) {
+            backdrop-filter: blur(5px);
+            background: rgba(0, 0, 0, .4);
+        }
+
+        @media (max-width: 1000px) {
             width: 100%;
             height: calc(100% - 60px);
             position: absolute;
@@ -45,12 +50,6 @@ export const ApresentationContainer = styled.main`
         width: 100%;
         max-width: 700px;
         padding: 15px;
-
-        @media (max-width: 1000px) {
-            backdrop-filter: blur(5px);
-            background: rgba(0, 0, 0, .4);
-            border-radius: 5px;
-        }
 
         strong {
             background: linear-gradient(to right, #ff5efa, #5c0098);
