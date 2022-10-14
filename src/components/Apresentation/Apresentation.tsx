@@ -16,7 +16,7 @@ export function Apresentation() {
                             <Typewriter words={['Desenvolvedor Front-End.']} />
                             <span id="FlashingStraightBar">|</span>
                         </h1>
-                        <p>Um resumo de mim pra voçês. Sou uma pessoa reservada, adoro gatos e sou um pouco alérgico a eles :c, gosto de jogar Dota2, amo achocolatado e café e estou com sede de conhecimento e acredito que desenvovimento Front-End é o meu lugar no mundo. Um resuminho ai, fuii.</p>
+                        <p>Um resumo de mim pra vocês. Sou uma pessoa reservada, adoro gatos e sou um pouco alérgico a eles :c, gosto de jogar Dota2, amo achocolatado e café e estou com sede de conhecimento e acredito que desenvovimento Front-End é o meu lugar no mundo. Um resuminho ai, fuii.</p>
                         <a href="https://whatsa.me/5515996487302" target={"_blank"}>Contato</a>
                     </div>
                 </div>
