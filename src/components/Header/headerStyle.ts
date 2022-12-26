@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-interface HeaderContainerTypes {
-    scrolled: number;
-}
-
 export const HeaderContainer = styled.header`
     backdrop-filter: blur(5px);
     background: rgba(91, 91, 91, .5);

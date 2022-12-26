@@ -20,7 +20,7 @@ export function Header() {
     }, [scrolled]);
 
     return (
-        <HeaderContainer scrolled={scrolled}>
+        <HeaderContainer>
             <div id="center">
                 <div id="logo">
                     <div>Meu</div>
