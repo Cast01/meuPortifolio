@@ -5,19 +5,8 @@ import { HeaderContainer } from "./headerStyle";
 import { MenuMobile } from './MenuMobile/MenuMobile';
 
 export function Header() {
-    const [scrolled, setScrolled] = useState(0);
 
     const {menuMobileOpen, setMenuMobileOpen} = useContext(MenuMobileContext);
-    console.log(scrolled)
-
-    useEffect(() => {
-        window.addEventListener("scroll", () => {
-            setScrolled(window.pageYOffset)
-        });
-        window.removeEventListener("scroll", () => {
-            setScrolled(window.pageYOffset)
-        })
-    }, [scrolled]);
 
     return (
         <HeaderContainer>
