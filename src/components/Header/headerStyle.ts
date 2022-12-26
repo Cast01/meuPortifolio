@@ -5,7 +5,7 @@ interface HeaderContainerTypes {
 }
 
 export const HeaderContainer = styled.header`
-    background: ${({scrolled}: HeaderContainerTypes) => scrolled > 0 ? "rgba(91, 91, 91, .6)" : "rgba(91, 91, 91, .5)"};
+    ${({scrolled}: HeaderContainerTypes) => scrolled > 0 ? "background:rgba(91, 91, 91, .6);" : "backdrop-filter:blur(5px);"}
     width: 100%;
     height: 60px;
     padding: 15px;
