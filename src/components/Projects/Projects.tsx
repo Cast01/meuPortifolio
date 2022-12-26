@@ -6,6 +6,7 @@ import projectImage2 from '../../assets/project-img2.png'
 import projectImage3 from '../../assets/project-img3.png'
 import nlw_i_eSport from '../../assets/nlw-i-eSport.png'
 import youtubeColne from '../../assets/youtube-clone.png'
+import nlwCopa from '../../assets/nlw-copa.png'
 
 // pegar a imagem dos projeto no guithub dela e usar para exemplos aqui.
 
@@ -14,9 +15,9 @@ export function Projects() {
 
     const arr = [
         [
-            {name: 'NLW I e-Sport', image: nlw_i_eSport, link: "https://nlw-ignite-e-sport-vercel.vercel.app/",},
+            {name: 'NLW e-Sport', image: nlw_i_eSport, link: "https://nlw-ignite-e-sport-vercel.vercel.app/",},
             {name: 'Youtube Clone', image: youtubeColne, link: "https://youtube-clone-xi-opal.vercel.app/"},
-            {name: 'sfsfs', image: projectImage1, link: "https://nlw-ignite-e-sport-vercel.vercel.app/"},
+            {name: 'NLW COPA', image: nlwCopa, link: "https://nlw-copa-next-js-responsive.vercel.app/"},
             {name: '555', image: projectImage1, link: "https://nlw-ignite-e-sport-vercel.vercel.app/"},
             {name: 'AAAAAA', image: projectImage1, link: "https://nlw-ignite-e-sport-vercel.vercel.app/"},
             {name: 'abDSDSDSDa1', image: projectImage1, link: "https://nlw-ignite-e-sport-vercel.vercel.app/"},
